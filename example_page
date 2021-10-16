@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+   
+        <head>
+            <meta charset="TFF-8">
+            <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+            <title>Strona przykład</title>
+            <link href="http://fonts.googleapis.com/css?family=Roboto:400,900&subset=Latin-ext" rel="stylesheet">
+            <link ref="shortcut icon" href="favicon.ico" type="image/x-icon">
+            <link ref="stylesheet" href="nowe_style.css">
+        </head>
+
+        <style type="text/css">
+        
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-size: roboto arial helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        #wrapper
+        {
+            max-width: 640px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        body
+        {
+            background-color: #ddb;
+        }
+       header img
+        {
+            width: 100%;
+            display: block;
+        }
+
+        nav
+        {
+            background-color: darkcyan;
+        }
+
+
+        a.menu
+        {
+            display: inline-block;
+            width: 24%;
+            padding: 15px 30px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        a.menu:hover
+        {
+            background-color: crimson;
+        }
+        .active
+        {
+            background-color: crimson;
+        }
+
+        article
+        {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding: 0px 20px;
+
+        }
+        article h1
+        {
+            margin:0 10% 20px 10%;
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid crimson;
+        }
+        img.left
+        {
+            float:left;
+            margin: 0px 10px 10px 0px;
+            padding:10px;
+            width:30%;
+            border-radius: 50% 30px;
+           
+        }
+        article p
+        {
+            text-align: justify;
+            line-height: 25px;
+            font-size: 18px;
+            padding: 15px 0px 15px 0px;
+
+        }
+        iframe
+        {
+            width:100%;
+        }
+        footer
+        {
+            height: 40px;
+            background-color: darkcyan;
+            color: white;
+            line-height: 40px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        </style>
+
+        <body>
+            
+            <div id="wrapper">
+                <header>
+                    <img src="images/plaza.jpg" alt="plaza">
+
+                </header>
+                <nav>
+                    <a class="menu active" href="#">O mnie</a>
+                    <a class="menu " href="#">Aktualności</a>
+                    <a class="menu" href="#">Inspiracje</a>
+                    <a class="menu" href="#">Kontakt</a>
+                </nav>
+                <section>
+                    <article>
+                        <h1>Nasza Pierwsza Strona Internetowa</h1>
+                        <p><img class="left" src="images/face.jpg" alt="twarz" width="240" height="240"/> mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
+                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
+                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p><br>
+                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
+
+                    </article>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hNeWtxkG-zE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <footer>Zrobiliśmy coś nowego w godzinę, ciągle sie uczymy</footer>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </body>
+
+
+
+
+</html>
