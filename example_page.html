@@ -5,13 +5,13 @@
         <head>
             <meta charset="TFF-8">
             <meta name= "viewport" content="width=device-width, initial-scale=1.0">
-            <title>Strona przykład</title>
+            <title>Tatry</title>
             <link href="http://fonts.googleapis.com/css?family=Roboto:400,900&subset=Latin-ext" rel="stylesheet">
             <link ref="shortcut icon" href="favicon.ico" type="image/x-icon">
             <link ref="stylesheet" href="nowe_style.css">
         </head>
 
-        <style type="text/css">
+<style type="text/css">
         
         *
         {
@@ -21,12 +21,7 @@
             box-sizing: border-box;
         }
 
-        #wrapper
-        {
-            max-width: 640px;
-            margin: 0 auto;
-            background-color: white;
-        }
+      
         body
         {
             background-color: #ddb;
@@ -37,30 +32,42 @@
             display: block;
         }
 
-        nav
+        nav 
         {
             background-color: darkcyan;
+            text-align: center;
+            display: block;
+
         }
-
-
         a.menu
         {
             display: inline-block;
-            width: 24%;
+            width: 15%;
             padding: 15px 30px;
             color: white;
             text-decoration: none;
             text-align: center;
+            transition: 0.5s;
         }
 
         a.menu:hover
+        
         {
-            background-color: crimson;
+            background-color: indigo;
         }
-        .active
+
+        .violet
+        
         {
-            background-color: crimson;
+            background-color: blueviolet;
         }
+
+        h2
+        {
+            text-align: center ;
+        }
+
+       
 
         article
         {
@@ -83,7 +90,7 @@
             margin: 0px 10px 10px 0px;
             padding:10px;
             width:30%;
-            border-radius: 50% 30px;
+            border-radius: 20% 20% 20% 20%;
            
         }
         article p
@@ -98,59 +105,118 @@
         {
             width:100%;
         }
+
+    
         footer
         {
             height: 40px;
-            background-color: darkcyan;
-            color: white;
             line-height: 40px;
             text-align: center;
             margin-top: 10px;
+        
+        }
+
+        #tekst_newsletter
+        
+        {
+           
+           
+            background-color: darkcyan;
+            color: white;
+
+        }
+
+        .submit_button
+        {
+           
         }
         
         </style>
 
-        <body>
+
+
+ <body>
             
-            <div id="wrapper">
-                <header>
-                    <img src="images/plaza.jpg" alt="plaza">
+           
+                <div id="gora">
+                    <header>
+                        <img src="images/Tatry.jpg" alt="Tatry" width="840" height="440">
+                    
+                    
+                    </header>
+                    <nav>
+                        <a class="menu violet Informacje" href="http://google.pl">Informacje</a>
+                        <a class="menu Atrakcje" href="http://google.pl">Atrakcje</a>
+                        <a class="menu Miejscowosci" href="http://google.pl">Miejscowości</a>
+                        <a class="menu Wycieczki" href="http://google.pl">Wycieczki</a>
+                        <a class="menu Noclegi" href="http://google.pl">Noclegi</a>
+                    </nav>
+                    
+                </div>
 
-                </header>
-                <nav>
-                    <a class="menu active" href="#">O mnie</a>
-                    <a class="menu " href="#">Aktualności</a>
-                    <a class="menu" href="#">Inspiracje</a>
-                    <a class="menu" href="#">Kontakt</a>
-                </nav>
-                <section>
+                
                     <article>
-                        <h1>Nasza Pierwsza Strona Internetowa</h1>
-                        <p><img class="left" src="images/face.jpg" alt="twarz" width="240" height="240"/> mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
-                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
-                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p><br>
-                        <p>mozna tutaj napisac jakis tekst zeby cos sie dzialo wiecej niz tylko zdjecia bla bla bla</p>
+                        <div id="srodek"> <br><br>
+                            <h2>TATRY</h2><br>
+                                <p>Witamy w serwisie w całości poświęconym najpiękniejszym polskim górom – Tatrom. Znajdą tu Państwo opisy szlaków, atrakcji turystycznych, zabytków, tatrzańskich miejscowości, gotowe plany wycieczek, porady praktyczne i wiele więcej. Zapraszamy!</p>
+                                <p>Tatry to pasmo górskie o powierzchni ok. 785 km2, długości 80 km (mierzonej wzdłuż głównej grani) oraz średniej szerokości ok. 15 km. Znajdują się w województwie Małopolskim, na terenie Powiatu Tatrzańskiego, na granicy polsko – słowackiej. Tatry są częścią łańcucha górskiego Karpat i stanowią jego najwyższe pasmo.</p>
+                                <p>Po polskiej stronie znajduje się ok. 22% powierzchni Tatr (175 km2) – pozostała, zdecydowanie większa część należy do Słowacji.</p>
+                                <p>Tatry dzielą się na dwie części różnorodne pod względem budowy geologicznej i ukształtowania terenu – Tatry Zachodnie oraz Tatry Wschodnie (obejmujące Tatry Wysokie oraz Tatry Bielskie). Granica pomiędzy nimi przebiega przez Przełęcz Liliowe, Dolinę Gąsienicową oraz Dolinę Suchej Wody Gąsienicowej.</p>
 
+
+                                <br><br>
+                    
+                            <h2>SZCZYTY</h2>
+                            
+                            <img class="left" src="images/Szczyt.jpg" alt="Szczyt" width="840" height="440"/>
+                        </div>
+                            <br><br><br>
+                        <div id="dol">
+                            <h1><p>Nasze propozycje 10 najpiękniejszych widokowo wypraw w Tatry</p></h1>
+                        <ol>
+                            <li>Mała Wysoka – po sąsiedzku z Gerlachem</li>
+                            <li>Koprowy Wierch – tatrzańska panorama na 4 strony świata</li>
+                            <li>Granaty – spotkanie z Orlą Percią</li>
+                            <li>Rysy – widokowa miejscówka na dachu Polski</li>
+                            <li>Szpiglasowy Wierch – między Morskim Okiem a Doliną Pięciu Stawów Polskich</li>
+                            <li>Pachoł – pozornie niepozorny</li>
+                            <li>Gęsia Szyja i Rusinowa Polana – „widok na 100 szczytów i przełęczy”</li>
+                            <li>Małołączniak – w środku Czerwonych Wierchów</li>
+                            <li>Świnica – ekspozycja z widokami</li>
+                            <li>Krywań – święta góra Słowaków</li>
+                            
+                        </ol>
+                        </div>
+        
                     </article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hNeWtxkG-zE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section>
-                <footer>Zrobiliśmy coś nowego w godzinę, ciągle sie uczymy</footer>
+                        <div id="podsumowanie">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MFpo61hjhnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                       
+                                        <footer>Długo zastanawialiśmy się nad wyborem czołowej „dziesiątki” najpiękniejszych widokowych szczytów Tatr dostępnych turystycznie. Na liście nie znalazły się przecież np. Kościelec, Łomnica (dostępna kolejką), Sławkowski Szczyt, Jagnięcy Szczyt, Starorobociański Szczyt, Rohacze, Banówka,Wołowiec i niewielki w tym towarzystwie Kopieniec.
+                        Nasz wybór jest jednak subiektywny i jak wspomnieliśmy na wstępie, nie o same widoki chodzi, ale o charakter i wrażenia z wyprawy.</footer>
+                        </div><br><br><br>
+
+                       
+                
+                            <br><br><br>
+                <div id="tekst_newsletter">
+                        <div id="naglowek_newsletter"> Zapisz się do <b>Newslettera</b> i bądź na bieżąco z nowościami :-)</div>
+                                <div id="form_newsletter"> 
+                                <form action="#" method="POST">
+                                        <div>
+                                        Twój e-mail: <input class="input_text"type="text" name="email"/>
+                                                        <input class="submit_button" type="submit" value="zapisuje sie"/>
+                                        </div>
+                                </form>
+                        </div>
+                                <div id="newsletter_info">
+                                Szanujemy Ciebie i tak samo nie lubimy spamu jak Ty, będziemy informowali Cię tylko o samych nowościach. W każdym momencie, możesz wypisać się z Newsletera wysyłając do nas e-mail'a. Dla formalności przyciskając button "Zapisuje się" akceptujesz nasze zasady prywatności.
+                                </div>
+                </div>
 
 
-
-
-            </div>
-
-
-
-
-
-
-
+                
 
         </body>
 
-
-
-
-</html>
+        </html>
